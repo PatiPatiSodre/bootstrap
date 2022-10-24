@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    
+    <header>
+
+      <nav class="navbar navbar-light bg-gradient">
+        <img class="nuvem bootstrap" src="img/lua bootstrap .jpg" alt="Logo">
+        <a class="navbar-brand text-black" href="#">Vincent van Gogh</a>
+        
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#O">Obras</a></li>
+          <li class="nav-item"><a class="nav-link" href="#c">Contatos</a></li>
+        </ul>
+      </nav>
+      </header>
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/noite.jpg" width="100" height="580px" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/campo.jpg" width="370" height="580px" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/flor.jpg" width="370" height="580px" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+  </section>
+    <section>
+      <div class="container mb-3">
+        <div class="row">
+          <div class="col-sm-12 text-dark text-center my-3" >
+            <h1 id="O">Obras inspiradas no autor Van Gogh</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/moon.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">A Lua</h5>
+                <p class="card-text">Esta obra é inspirada nas pinceladas de suas obras e o céu identico é de sua obra noite estrelada. Podemos ver que o ponto central da obra é a lua, ao invés da cidade.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/flowers.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Amendoeira em Flor para smartphones</h5>
+                <p class="card-text">É basicamente sua obra adaptada para papel de parede de celular para amantes das obras de Van Gogh.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/sea.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mar de Van Gogh</h5>
+                <p class="card-text">Esta obra é inspirada nas pinceladas de suas obras e o céu na obra "A Noite Estrelada".</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/van-gogh.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Universo de Van Gogh</h5>
+                <p class="card-text">Esta obra remete o universo de Van Gogh em relação as suas pinturas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/violin.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Música em um mar de girassóis</h5>
+                <p class="card-text">Esta obra é inspirada na obra "Os Girassóis" e o céu na obra "A Noite Estrelada".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid p-3">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Made by Nicoli Santana and Patrícia Sodré</p>
+            <h5 id="c">Endereço de email</h5>
+            <address>
+              <a href="mailto:s.nicoli@aluno.ifsp.edu.br">Para a Nicoli</a> <br>
+              <a href="mailto:patricia.sodre@aluno.ifsp.edu.br">Para a Patrícia</a>            
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
